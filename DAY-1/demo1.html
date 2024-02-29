@@ -1,0 +1,43 @@
+<html>
+
+<head></head>
+
+<body>
+    <h3> JavaScript Programming - Accessing DOM Objects </h3>
+    <hr />
+   
+
+    User Name: <input type="text" id="t1"/> 
+<br>
+    <img id="img1" height="200px" width="500px">
+
+    <hr>
+    Technology: <input type="text" id="t2"/> 
+    <input type="button" value="Get Message" onclick="buttonClick()">
+
+<br>
+    Paragraph Content:
+    <p id="p1">
+    </p>
+<script>
+        // var obj1=document.getElementById("p1")
+        // obj1.innerHTML="Welcome to js";
+        
+        var obj2=document.getElementById("t1")
+        obj2.value="Sachin";
+
+
+        var obj3=document.getElementById("img1")
+        obj3.src="https://wallpaper.dog/large/10887401.jpg"
+
+function buttonClick(){
+        var obj4=document.getElementById("t2");
+        var obj5=document.getElementById("p1");
+
+        obj5.innerHTML="Welcome to "+obj4.value;
+    }
+    </script>
+    
+</body>
+
+</html>

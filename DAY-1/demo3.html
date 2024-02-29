@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    Username <input type="text" id="username"><br>
+    Password<input type="text" id="password"><br>
+    <input type="button" value="Login" onclick="login()">
+
+    <p id="p1"></p>
+    <script>
+        function login(){
+            var u=document.getElementById("username").value;
+            var p=document.getElementById("password").value;
+            var para=document.getElementById("p1")
+            if(u=="admin"&&p=="password"){
+                para.innerHTML="Welcome "+u;
+            }
+            else{
+                para.innerHTML="Invalid Credentials";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
