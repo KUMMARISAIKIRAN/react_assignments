@@ -1,0 +1,29 @@
+4.
+Security token can be sent using axios get request in this way
+
+axios.get('https://api.github.com/user', {
+  headers: {
+    'Authorization': `token ${access_token}`
+  }
+})
+.then((res) => {
+  console.log(res.data)
+})
+.catch((error) => {
+  console.error(error)
+})
+
+where get has two parameters 1st is url and in the second we can pass the object consisits of headers and provide the token Authorization.
+
+  
+6.
+Promises are used to implement asynchronous programming in JavaScript.
+A Promise can be rejected or resolved depending on the outcome of an action.
+A Promise returns a single value based on the action whether they are rejected or resolved.
+Three stages of the Promise:
+Pending: The initial state of each Promise; indicates that the result has not been computed yet
+Fulfilled: Indicates that the operation has been completed
+Rejected: Indicates a failure that occurs during computation
+A Promise will be immutable once it is fulfilled or rejected.
+The Promise() constructor takes two arguments—a resolve function and a rejected function. 
+Based on the asynchronous operation, it returns either the first argument or the second argument.

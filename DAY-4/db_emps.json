@@ -1,0 +1,25 @@
+{
+  "emps": [
+    {
+      "empno": 1,
+      "ename": "Scott",
+      "job": "Accountant",
+      "sal": 100000,
+      "deptno": 101
+    },
+    {
+      "empno": 2,
+      "ename": "Kooper",
+      "job": "Audit Consultant",
+      "sal": 200000,
+      "deptno": 102
+    },
+    {
+      "empno": 3,
+      "ename": "Miller",
+      "job": "Marketing Analyst",
+      "sal": 300000,
+      "deptno": 103
+    }
+  ]
+}
